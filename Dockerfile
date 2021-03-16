@@ -1,4 +1,4 @@
-FROM weaveworks/ignite-ubuntu:latest as common
+FROM weaveworks/ignite-ubuntu:18.04 as common
 
 ENV DEBIAN_FRONTEND noninteractive
 
